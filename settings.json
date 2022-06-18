@@ -76,19 +76,14 @@
     "editor.defaultFormatter": "ms-mssql.mssql"
   },
   "redhat.telemetry.enabled": true,
-  "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
-  },
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "terminal.integrated.tabs.enabled": false,
-  "workbench.colorTheme": "Aura Soft Dark",
   "tabnine.experimentalAutoImports": true,
   "launch": {
     "configurations": [],
     "compounds": []
   },
-  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.profiles.windows": {
     "Command Prompt": {
       "path": [
@@ -130,6 +125,11 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "gitlens.views.branches.branches.layout": "list",
-  "window.zoomLevel": -1,
-  "powermode.enabled": false
+  "powermode.enabled": false,
+  "workbench.colorTheme": "Aura Soft Dark",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "openapi.securityAuditToken": "CiB7YLXeOHlUiV8MGqAFOPAzwe8v4bCyX1QE0We2m7zIlxIY01+Fymm7DjR7gbsfyDEzKOEwyQbCKtzhGnYpXdiAyo3meGey6P2kL47SgFQjC8KKdY1Jy3FQ3+TBwJ0qF7EiIxv64fzzNZ4LqLgRSLz2JoX3K/MRUThXahbRSzBPL9ydrTYNkJOjmVO1LwNR6sCYAlL1wzwXbH0gIGNS8Xn3lIJcfViaCvuzpyep+u7KKkq9",
+  "window.zoomLevel": -1
 }
