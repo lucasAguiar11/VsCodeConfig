@@ -1,6 +1,9 @@
 {
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "Fira Code",
+  "terminal.integrated.fontFamily": "FiraCode NF",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "git.mergeEditor": true,
   "editor.fontLigatures": true,
   "files.exclude": {
     "**/.git": true,
@@ -21,7 +24,7 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": false
   },
   "files.associations": {
     ".sequelizerc": "javascript",
@@ -83,7 +86,7 @@
     "configurations": [],
     "compounds": []
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
   "terminal.integrated.profiles.windows": {
     "Command Prompt": {
       "path": [
@@ -102,7 +105,10 @@
     "yaml": true,
     "plaintext": true,
     "markdown": true,
-    "sql": true
+    "sql": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "json": true
   },
   "editor.inlineSuggest.enabled": true,
   "[typescriptreact]": {
@@ -131,5 +137,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "openapi.securityAuditToken": "CiB7YLXeOHlUiV8MGqAFOPAzwe8v4bCyX1QE0We2m7zIlxIY01+Fymm7DjR7gbsfyDEzKOEwyQbCKtzhGnYpXdiAyo3meGey6P2kL47SgFQjC8KKdY1Jy3FQ3+TBwJ0qF7EiIxv64fzzNZ4LqLgRSLz2JoX3K/MRUThXahbRSzBPL9ydrTYNkJOjmVO1LwNR6sCYAlL1wzwXbH0gIGNS8Xn3lIJcfViaCvuzpyep+u7KKkq9",
-  "window.zoomLevel": -1
+  "npm.keybindingsChangedWarningShown": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "html.format.preserveNewLines": false,
+  "terminal.integrated.gpuAcceleration": "on",
+  "window.zoomLevel": -1,
+  "window.commandCenter": true,
+  "terminal.integrated.rendererType": "canvas"
 }
